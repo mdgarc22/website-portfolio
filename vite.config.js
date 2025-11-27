@@ -18,5 +18,4 @@ export default defineConfig({
   },
   // base url for github pages
   base: "/website-portfolio/",
-  plugins: [react()],
 })
