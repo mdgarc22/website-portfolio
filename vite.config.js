@@ -17,5 +17,6 @@ export default defineConfig({
     // }
   },
   // base url for github pages
-  base: "/ManuelGarcia-Portfolio"
+  base: "/website-portfolio/",
+  plugins: [react()],
 })
