@@ -7,7 +7,7 @@ const projects = [
   {
     id: 1,
     title: "AndyTaEstates",
-    description: "A fully customized real estate website with dynamic features.",
+    description: "Developed a custom realtor website to manage and display property listings, implementing full CRUD functionality with a PHP and MySQL backend. Integrated dynamic listing pages and a contact form to support client inquiries and streamline content updates.",
     image: "/images/AndyTaEstates.png",
     gif: "/images/AndyTaEstates.gif",
     tags: ["Bootstrap", "MySQL", "PHP"],
@@ -17,7 +17,7 @@ const projects = [
   {
     id: 2,
     title: "Weather Intelligence Dashboard",
-    description: "A weather dashboard that provides real-time weather data and forecasts using OpenWeatherMap API. AI integration for enhanced user experience.",
+    description: "Developed a full-stack weather analytics application that consumes real-time data from a RESTful API and visualizes key weather KPIs using Plotly. Integrated Claude AI with prompt engineering to generate context-aware recommendations, and built a modular Python backend with AWS DynamoDB for scalable user management.",
     image: "",
     gif: "",
     tags: ["Python", "AWS DynamoDB", "Claude AI", "LLM Integration", "REST API"],
@@ -27,7 +27,7 @@ const projects = [
   {
     id: 3,
     title: "Pulsepoint",
-    description: "A tool to strengthen communication between management and employees.",
+    description: "Collaborated in an Agile team to develop a desktop application for internal communication between employees and management. Implemented authentication and role-based validation, designed a MySQL database schema, and participated in sprint planning, stand-ups, and reviews using GitHub for version control.",
     image: "/images/PulseLogo.png",
     gif: "",
     tags: ["C#", "JavaScript", "MySQL"],
@@ -37,7 +37,7 @@ const projects = [
   {
     id: 4,
     title: "Customer Relationship Management",
-    description: "A personal project of a customer relationship management (CRM) web application with CRUD functionality.",
+    description: "Built a full-stack CRM web application using Django, Python, and MySQL featuring secure authentication and full CRUD functionality. Leveraged Django’s ORM to efficiently manage relational data and optimize database operations.",
     image: "/images/djangoCRM.png",
     gif: "/images/djangoCRM.gif",
     tags: ["Django", "Python", "MySQL"],
@@ -47,7 +47,7 @@ const projects = [
   {
     id: 5,
     title: "Florpy Birdy",
-    description: "A flappy bird-like game prototype that has collision mechanics, dynamic objects spawning, and a logic manager that tracks and updates the player's score dynamically.",
+    description: "Created a 2D Unity game inspired by Flappy Bird, implementing collision detection, dynamic object spawning, and real-time score tracking using C#. Focused on game mechanics, performance, and gameplay flow.",
     image: "/images/florpy.png",
     gif: "/images/florpy.gif",
     tags: ["C#", "Unity"],
