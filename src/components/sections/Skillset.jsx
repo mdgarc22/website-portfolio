@@ -1,21 +1,35 @@
 var baseUrl = import.meta.env.BASE_URL;
 
 export const Skillset = () => {
-  const frontendSkills = [
-  { name: "Bootstrap", icon: "/images/bootstrap.png" },
+  const programmingSkills = [
+  
   { name: "C#", icon: "/images/csharp.png" },
-  { name: "React", icon: "/images/react.png" },
-  { name: "TailwindCSS", icon:"/images/tailwindcss.png" },
-  { name: "Unity", icon: "/images/unity.png" }
-];
-
-const backendSkills = [
-  { name: "Django", icon: "/images/django.png" },
+  { name: "Java", icon: "/images/java.png" },
   { name: "Javascript", icon: "/images/javascript.png" },
-  { name: "MySQL", icon: "/images/mysql.png" },
   { name: "PHP", icon: "/images/php.png" },
   { name: "Python", icon: "/images/python.png" }
 ];
+
+const tool_frameworksSkills = [
+  { name: "Django", icon: "/images/django.png" },
+  { name: "React", icon: "/images/react.png" },
+  { name: "Unity", icon: "/images/unity.png" },
+  { name: "TailwindCSS", icon:"/images/tailwindcss.png" },
+  { name: "Bootstrap", icon: "/images/bootstrap.png" }
+];
+
+const ai_apiSkills = [
+  { name: "Claude AI", icon: "/images/claude.png" },
+  { name: "LLM Integration", icon: "/images/LLM.png" },
+  { name: "REST API", icon: "/images/rest.png" },
+  { name: "Prompt Engineering", icon: "/images/prompt.png" }
+]
+
+const databaseSkills = [
+  { name: "AWS DynamoDB", icon: "/images/dynamo.png" },
+  { name: "MySQL", icon: "/images/mysql.png" },
+  { name: "MS SQL", icon: "/images/mssql.png" }
+]
 
   const SkillCard = ({ title, skills }) => (
   <div className="bg-[var(--color-navy)] border border-gray-900 rounded-2xl p-4 sm:p-6 w-full max-w-xs sm:max-w-md">
@@ -47,13 +61,19 @@ const backendSkills = [
       {/* Skills Grid - Appears Below Bio */}
       <div className="grid grid-cols-4 gap-4">
         <div className="md:visible invisible col-span-1 grid text-sideways text-white font-zeronero text-8xl pl-10">S K I L L S</div>
-        <div className="grid col-span-2  justify-center w-full items-center">
+        <div className="grid col-span-2 justify-center w-full items-center">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:max-w-3xl w-full justify-items-center">
             <div className="">
-              <SkillCard title="Front End" skills={frontendSkills} />
+              <SkillCard title="Programming Languages" skills={programmingSkills} />
             </div>
             <div className="">
-              <SkillCard title="Back End" skills={backendSkills} />
+              <SkillCard title="Tools & Frameworks" skills={tool_frameworksSkills} />
+            </div>
+            <div className="">
+              <SkillCard title="AI & APIs" skills={ai_apiSkills} />
+            </div>
+            <div className="">
+              <SkillCard title="Databases" skills={databaseSkills} />
             </div>
             
           </div>
